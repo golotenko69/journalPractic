@@ -1,0 +1,2 @@
+# journalPractic
+HUI PIZDA 
