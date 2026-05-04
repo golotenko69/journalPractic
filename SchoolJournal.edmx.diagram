@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<edmx:Edmx Version="3.0" xmlns:edmx="http://schemas.microsoft.com/ado/2009/11/edmx">
+ <!-- EF Designer content (DO NOT EDIT MANUALLY BELOW HERE) -->
+  <edmx:Designer xmlns="http://schemas.microsoft.com/ado/2009/11/edmx">
+    <!-- Diagram content (shape and connector positions) -->
+    <edmx:Diagrams>
+      <Diagram DiagramId="ffb03bbdd5f0427e8cdb0981bf6e85cb" Name="Diagram1">
+        <EntityTypeShape EntityType="SchoolJournalModel.Grades" Width="1.5" PointX="7.5" PointY="2.5" IsExpanded="true" />
+        <EntityTypeShape EntityType="SchoolJournalModel.Students" Width="1.5" PointX="3" PointY="1.25" IsExpanded="true" />
+        <EntityTypeShape EntityType="SchoolJournalModel.Subjects" Width="1.5" PointX="5.25" PointY="4" IsExpanded="true" />
+        <EntityTypeShape EntityType="SchoolJournalModel.sysdiagrams" Width="1.5" PointX="0.75" PointY="6.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="SchoolJournalModel.Teachers" Width="1.5" PointX="3" PointY="4" IsExpanded="true" />
+        <EntityTypeShape EntityType="SchoolJournalModel.Users" Width="1.5" PointX="0.75" PointY="2.5" IsExpanded="true" />
+        <AssociationConnector Association="SchoolJournalModel.FK__Grades__StudentI__47DBAE45" ManuallyRouted="false" />
+        <AssociationConnector Association="SchoolJournalModel.FK__Grades__SubjectI__48CFD27E" ManuallyRouted="false" />
+        <AssociationConnector Association="SchoolJournalModel.FK__Students__UserID__3C69FB99" ManuallyRouted="false" />
+        <AssociationConnector Association="SchoolJournalModel.FK__Subjects__Teache__4316F928" ManuallyRouted="false" />
+        <AssociationConnector Association="SchoolJournalModel.FK__Teachers__UserID__403A8C7D" ManuallyRouted="false" />
+      </Diagram>
+    </edmx:Diagrams>
+  </edmx:Designer>
+</edmx:Edmx>
